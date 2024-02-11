@@ -4,3 +4,6 @@
 
 **Random Password Generator**<br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/output/random%20password%20generator%20output.png)
+
+**BMI Calculator**<br>
+![alt text](https://github.com/AkashKobal/web-development/blob/main/output/bmi%20calculator%20output.png)
