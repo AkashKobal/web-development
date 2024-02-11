@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(93, 153, 213);
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.container{
+    color: rgb(10, 28, 61);
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#password{
+    /* color: rgb(165, 178, 202); */
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+    padding: 15px;
+
+
+}
+#copy{
+    /* margin-top: 30px; */
+    font-size: 38px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+#GeneratePassword{
+    padding: 10px;;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#GeneratePassword:hover{
+    background-color: rgb(17, 39, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#copy:hover{
+    background-color: rgb(17, 39, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
