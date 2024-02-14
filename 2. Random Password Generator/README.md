@@ -1,2 +1,2 @@
-# Random Password Generator
+# Random Password Generator  _(HTML, CSS and Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/output/random%20password%20generator%20output.png)
