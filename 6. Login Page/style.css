@@ -1,0 +1,93 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body{
+    background-color: rgb(3, 49, 88);
+}
+.input-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .input-box input{
+            padding: 20px;
+            font-size: 30px;
+            border-radius: 10px;
+            border-color: transparent;
+}
+.container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    cursor: pointer;
+}
+.container img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 14px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#password {
+    width: 300px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+::-webkit-input-placeholder { 
+    color: rgb(7, 35, 77);
+    opacity: 1; 
+}
+::-moz-placeholder { 
+    color: rgb(7, 35, 77);
+    opacity: 1; 
+}
+:-ms-input-placeholder { 
+    color: rgb(7, 35, 77);
+    opacity: 1; 
+}
+::-ms-input-placeholder { 
+    color: rgb(7, 35, 77);
+    opacity: 1; 
+}
+::placeholder { 
+    color: rgb(7, 35, 77);
+    opacity: 1; 
+}
+.login{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: transparent;
+}
+.login:hover{
+background-color: rgb(33, 106, 201);
+}
+
+#password{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+   }
