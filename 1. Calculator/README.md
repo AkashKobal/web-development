@@ -1,2 +1,5 @@
-# Calculator _(HTML, CSS)_
-![alt text](https://github.com/AkashKobal/web-development/blob/dcab39ca252968a65c7dd2fc3a98e9e76e7d55f7/output/calculator%20output.png)
+# Calculator _(HTML and CSS)_ <br>
+![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)
+
+
+
