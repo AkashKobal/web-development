@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Quotes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="quote-box">
+      <h3>Quote of the day</h3>
+      <br />
+      <blockquote id="quote">Loading.....</blockquote>
+      <br />
+      <span id="author">Loading.....</span>
+
+      <div class="buttons">
+        <button id="newQuotes" onclick="getQuote(api_url)">New Quotes</button>
+        <button id="share" onclick=" share()">Share</button>
+      </div>
+    </div>
+  </body>
+</html>
