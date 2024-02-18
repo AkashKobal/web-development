@@ -14,10 +14,10 @@
 ## QR Code Generator  _(HTML, CSS, and Js)_ <br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/5.%20QR%20Code%20Generator/qr%20code%20generator.png)
 
-## Login page
+## Login page  _(HTML, CSS, and Js)_ <br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/6.%20Login%20Page/login%20page%20output.png)
 
-## Quote Generator
+## Quote Generator _(HTML, CSS, and Js)_ <br>
 **New Quote**
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/7.%20Quotes%20Generator/new%20quote%20output.png)
 **Share**
