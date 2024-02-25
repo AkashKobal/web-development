@@ -33,5 +33,7 @@
 **Dark Mode**
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/9.%20Dark%20Mode/output%20darkmode.png)
 
+## Stopwatch
+![alt text](https://github.com/AkashKobal/web-development/blob/main/10.%20Stopwatch/output.png)
 
 
