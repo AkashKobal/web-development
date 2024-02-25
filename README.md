@@ -1,11 +1,11 @@
 # Web Development Projects (Beginner to Advance) 
-## Calculator _(HTML and CSS)_ <br>
+## Calculator _(HTML and CSS)_ <br> 
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)
 
 ## Random Password Generator _(HTML, CSS, and Js)_ <br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)
 
-## BMI Calculator  _(HTML, CSS, and Js)_ <br> 
+## BMI Calculator  _(HTML, CSS, and Js)_ <br>    
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png) 
 
 ## Account Registration Form  _(HTML, CSS, and Js)_ <br>
@@ -25,5 +25,13 @@
 
 ## Google Search Engine Clone _(HTML, CSS, and Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/8.%20Google%20Search%20Engine%20Clone/output.png)
+
+## Light and Dark Mode _(HTML, Css, and Js)_
+**Light Mode**
+![alt text](https://github.com/AkashKobal/web-development/blob/main/9.%20Dark%20Mode/output%20lightmode.png)
+
+**Dark Mode**
+![alt text](https://github.com/AkashKobal/web-development/blob/main/9.%20Dark%20Mode/output%20darkmode.png)
+
 
 
