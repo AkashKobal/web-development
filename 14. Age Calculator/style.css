@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content h1:nth-child(1) {
+    color: rgba(27, 6, 122, 0.604);
+}
+
+.content h1:nth-child(2) {
+    color: rgb(27, 6, 122);
+}
+
+#display {
+    color: rgba(33, 57, 87, 0.784);
+    font-size: 18px;
+    padding-left: 5px;
+
+}
+
+.container {
+    background: linear-gradient(#3731e6e2, #0834adab);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#calculateAge {
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.805);
+
+
+}
+
+#date {
+    background-color: rgba(255, 255, 255, 0.805);
+    border-color: transparent;
+}
