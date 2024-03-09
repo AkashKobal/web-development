@@ -1,6 +1,6 @@
 # Web Development Projects (Beginner to Advance)    
-## Calculator _(HTML and CSS)_ <br>  
-![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)
+## Calculator _(HTML and CSS)_ <br>   
+![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png) 
 
 ## Random Password Generator _(HTML, CSS, and Js)_ <br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)
@@ -41,5 +41,8 @@
 
 ## Email Subscription _(HTML, CSS, and Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/12.%20Email%20Subscription/output.png)
+
+## To-Do List _(HTML, CSS, and Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/13.%20To%20Do%20List/output.png)
 
 
