@@ -68,7 +68,6 @@ body{
     position: absolute;
     top: 20%;
     margin-left: 50%;
-    /* left: 50%; */
     border-radius: 10px;
 }
 .btn{
