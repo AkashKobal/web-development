@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form class="colorful-form">
+        <div class="form-group">
+            <label class="form-label" for="name">Name:</label>
+            <input required placeholder="Enter your name" class="form-input" type="text">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="email">Email:</label>
+            <input required placeholder="Enter your email" class="form-input" name="email" id="email" type="email">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="email">Phone no:</label>
+            <input required placeholder="Enter your phone no" class="form-input" name="email" id="phoneNo" type="number">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="message">Message:</label>
+            <textarea required placeholder="Enter your message upto 250 characters." class="form-input" name="message"
+                id="message"></textarea>
+        </div>
+        <button class="form-button" type="submit" onclick="phoneNumber()">Submit</button>
+    </form>
+</body>
+</html>
