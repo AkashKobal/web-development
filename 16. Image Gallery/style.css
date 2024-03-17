@@ -1,0 +1,34 @@
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 500px;
+
+}
+
+.slide {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    transition: 1s;
+
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 750px;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+}
