@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="form-box">
+        <form class="form" onsubmit="return formValidator()">
+            <span class="title">Sign up</span>
+            <span class="subtitle">Create a free account with your email.</span>
+            <div class="form-container">
+                <input type="text" class="input" placeholder="First Name" id="firstname">
+                <input type="text" class="input" placeholder="Last Name" id="lastname">
+                <input type="email" class="input" placeholder="Email" id="email">
+                <input type="password" class="input" placeholder="Password" id="pass">
+                <textarea name="" id="" cols="30" rows="3" id="addr" placeholder="Address"></textarea>
+                <input type="number" class="input" placeholder="Mobile number" id="mobileno">
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+        <div class="form-section">
+            <p>Have an account? <a href="">Log in</a> </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
