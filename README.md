@@ -51,7 +51,11 @@
 ## Form validation _(HTML, CSS, Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/15.%20Form%20Validation/output.png)
 
+## Form validation 2 _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/16.%20Form%20Validation%202/Screenshot%20(327).png)
+
 ## Image Gallery _(HTML, CSS, Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/16.%20Image%20Gallery/Screenshot%20(325).png)
+
 
 
