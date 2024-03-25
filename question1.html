@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Shopping Cart</title>
+<style>
+    #cart-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+<h2>Simple Shopping Cart</h2>
+<label for="item-name">Item Name:</label>
+<input type="text" id="item-name"><br><br>
+<label for="item-price">Item Price:</label>
+<input type="number" id="item-price"><br><br>
+<button onclick="addItem()">Add to Cart</button><br><br>
+<button onclick="display()">Display</button>
+<button onclick="total()">Total</button>
+<ul id="cart-list"></ul>
+<div>
+    Total Price: <span id="total-price">0</span>
+</div>
+
+<script>
+    const cartList = document.getElementById('cart-list');
+    const totalPriceDisplay = document.getElementById('total-price');
+    let totalPrice = 0;
+
+    function addItem() {
+        const itemName = document.getElementById('item-name').value;
+        const itemPrice = parseFloat(document.getElementById('item-price').value);
+
+        // Check if both name and price are provided
+        if (itemName.trim() === '' || isNaN(itemPrice) || itemPrice <= 0) {
+            alert('Please enter valid item name and price.');
+            return;
+        }
+
+        // Create list item to display the item in the cart
+        const listItem = document.createElement('li');
+        listItem.className = 'cart-item';
+        listItem.innerHTML = `
+            <span>${itemName} - Rs${itemPrice}</span>
+            <button onclick="removeItem(this)">Remove</button>
+        `;
+        cartList.appendChild(listItem);
+
+       
+                // Update total price
+        totalPrice += itemPrice;
+        totalPriceDisplay.textContent = totalPrice.toFixed(2);
+
+        // Clear input fields
+        document.getElementById('item-name').value = '';
+        document.getElementById('item-price').value = '';
+    }
+
+    function removeItem(button) {
+        const listItem = button.parentElement;
+        const itemPriceStr = listItem.querySelector('span').textContent.split('-')[1].trim();
+        const itemPrice = parseFloat(itemPriceStr.substring(1)); 
+        totalPrice -= itemPrice;
+        totalPriceDisplay.textContent = totalPrice.toFixed(2);
+        listItem.remove();
+    }
+
+    function display(){
+        totalPriceDisplay.innerText = "";
+    }
+    function total(){
+        totalPriceDisplay.innerText = totalPrice.toFixed(2);
+    }
+</script>
+</body>
+</html>

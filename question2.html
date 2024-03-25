@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Information Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Information Form</h2>
+        <form action="#" method="post">
+                Employee ID:<input type="text" id="employee_id" name="employee_id" required>
+                First Name<input type="text" id="first_name" name="first_name" required>
+                Last Name<input type="text" id="last_name" name="last_name" required>
+                Date of Birth<input type="date" id="dob" name="dob" required>
+                Date of Joining<input type="date" id="date_of_joining" name="date_of_joining" required>
+                Gender:
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                Address: <input type="text" id="address" name="address" required>
+                Contact No:<input type="text" id="contact_no" name="contact_no" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</html>

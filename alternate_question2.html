@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pricing Table</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .plan {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .plan h3 {
+            color: #333;
+        }
+
+        .plan p {
+            color: #666;
+        }
+
+        .plan .features {
+            margin-top: 20px;
+            padding: 0;
+            list-style: none;
+            text-align: left;
+        }
+
+        .plan .features li {
+            margin-bottom: 10px;
+        }
+
+        .sign-up-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sign-up-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .plan {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pricing-table">
+        <div class="plan" style="background-color: #f0f0f0;">
+            <h3>Basic</h3>
+            <p>$10/month</p>
+            <ul class="features">
+                <li>Only on device</li>
+                <li>720p</li>
+                <li></li>
+            </ul>
+            <a href="#" class="sign-up-btn">Sign Up</a>
+        </div>
+
+        <div class="plan" style="background-color: #d4edda;">
+            <h3>Standard</h3>
+            <p>$20/month</p>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <a href="#" class="sign-up-btn">Sign Up</a>
+        </div>
+
+        <div class="plan" style="background-color: #f8d7da;">
+            <h3>Premium</h3>
+            <p>$30/month</p>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+            </ul>
+            <a href="#" class="sign-up-btn">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+<!-- 
+Design a responsive pricing table for subscription based service. the pricing table should include three subscription
+plans: basic, standard, and premium.
+each plan should display the following information.
+1. plan Name
+2. price per month
+3. list of features included in the plan
+4. sign up button
+The design should be responsive and work on all devices.
+use different colors for each plan to make them visually distinct.
+sign up button should be clickable, indicating an action when clicked. -->
