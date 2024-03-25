@@ -1,14 +1,14 @@
 # Web Development Projects (Beginner to Advance)    
 ## Calculator _(HTML and CSS)_ <br>   
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png) 
-
+ 
 ## Random Password Generator _(HTML, CSS, and Js)_ <br>
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)
 
 ## BMI Calculator  _(HTML, CSS, and Js)_ <br>    
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png)  
 
-## Account Registration Form  _(HTML, CSS, and Js)_ <br>
+## Account Registration Form  _(HTML, CSS, and Js)_ <br> 
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/4.%20Account%20Registration%20Form/account%20registration%20form%20output.png) 
  
 ## QR Code Generator  _(HTML, CSS, and Js)_ <br>
@@ -51,7 +51,11 @@
 ## Form validation _(HTML, CSS, Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/15.%20Form%20Validation/output.png)
 
+## Form validation 2 _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/16.%20Form%20Validation%202/Screenshot%20(327).png)
+
 ## Image Gallery _(HTML, CSS, Js)_
-![alt text](https://github.com/AkashKobal/web-development/blob/main/16.%20Image%20Gallery/Screenshot%20(325).png)
+![alt text](https://github.com/AkashKobal/web-development/blob/main/17.%20Image%20Gallery/Screenshot%20(325).png)
+
 
 
