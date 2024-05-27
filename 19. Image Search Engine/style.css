@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(71, 99, 255, 0.9697128851540616) 1%, rgba(117, 27, 144, 1) 100%); */
+    background: linear-gradient(90deg, rgba(32, 16, 177, 1) 0%, rgba(133, 148, 255, 0.9612219887955182) 52%, rgba(176, 133, 255, 1) 64%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    color: black;
+}
+
+h1 span {
+    text-decoration: underline;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white;
+}
+
+form input {
+    flex: 1;
+    height: 100%;
+    color: black;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 0 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+form button {
+    padding: 0 40px;
+    height: 100%;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background: red;
+    color: white;
+    box-shadow: 0 0 5px red;
+}
+
+form button i {
+    padding: 2px;
+}
+form button:hover{
+    background: white;
+    color: red;
+}
+#showMoreBtn {
+    background-color: red;
+    color: white;
+    bottom: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+    border: 0;
+}
+#showMoreBtn:hover {
+    box-shadow: 0 0 5px red;
+}
+#searchEngineResult {
+    width: 80%;
+    margin: 80px auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#searchEngineResult a {
+    flex: 0 0 calc(33.3% -10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+#searchEngineResult img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+/* media Query */
+@media (max-width:800px) {
+    #searchEngineResult a {
+        flex: 0 0 calc(50%-10px);
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    form {
+        max-width: 400px;
+        height: 50px;
+    }
+}
+
+@media(max-width:500px) {
+    #searchEngineResult{
+        width: 90%;
+    }
+    #searchEngineResult a {
+        flex: 0 0 100%;
+    }
+    #searchEngineResult img {
+        width: 90%;
+        height: 220px;
+        object-fit: cover;
+        margin: auto;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+    form {
+        max-width: 300px;
+        height: 40px;
+    }
+
+    form input {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    form button {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+}
