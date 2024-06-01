@@ -20,7 +20,7 @@
 ## Quote Generator _(HTML, CSS, and Js)_ <br>
 **New Quote**
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/7.%20Quotes%20Generator/new%20quote%20output.png)
-**Share**
+**Share** 
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/7.%20Quotes%20Generator/share%20output.png)
 
 ## Google Search Engine Clone _(HTML, CSS, and Js)_
