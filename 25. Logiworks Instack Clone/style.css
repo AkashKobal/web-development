@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newBtn {
+    height: fit-content;
+
+
+}
+
+#submit {
+    background-color: #179c53;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+    justify-content: center;
+    /* margin-left: 10px; */
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    /* padding-left: 10px; */
+
+}
+
+#exit {
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+    justify-content: center;
+    margin-left: 10px;
+    border-color: #1847ad;
+    border-radius: 5px;
+    color: #1847ad;
+    padding: 5px;
+    /* padding-left: 10px; */
+    margin-right: 10px;
+}
+
+.sectionone {
+    background-color: rgba(128, 128, 128, 0.178);
+    margin-left: -35px;
+    padding-left: 40px;
+    height: 60px;
+    width: 1640px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.btnone {
+    background-color: #1847ad;
+    border-radius: 5px;
+    border-color: transparent;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.repostBtn1 {
+    margin-left: 1245px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #b81a29;
+    border-color: #c0212c;
+    font-size: large;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.repostBtn2 {
+    border-radius: 5px;
+    background-color: #179c53;
+    color: white;
+    border-color: transparent;
+    font-size: large;
+    padding: 5px;
+
+}
+
+.repostBtn3 {
+    border-radius: 5px;
+    background-color: #c0212c;
+    color: white;
+    border-color: transparent;
+    font-size: large;
+    padding: 5px;
+}
+
+label {
+    margin-left: 5px;
+    margin-top: 30px;
+
+}
+
+.questionss {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 1560px;
+}
+
+h6 {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.questions button {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: rgb(235, 21, 235);
+    color: white;
+}
+
+.questions button:hover {
+    background-color: rgba(35, 21, 235, 0.87);
+    color: white;
+    border-radius: 2px;
+}
+
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.technialMCQ {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(230, 227, 227, 0.904);
+    font-weight: 500;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.technialMCQ h5 {
+    margin-top: 10px;
+    text-decoration: underline;
+
+}
+
+.technialMCQ {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.section h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    margin-top: -400px;
+}
+
+.navbar-brand h3 {
+    margin-left: 10px;
+    font-family: cursive;
+    font-weight: 700;
+
+}
+
+.navbar-brand h6 {
+    margin-left: 10px;
+    margin-left: 450px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    justify-content: flex-end;
+    /* margin-left: 20px; */
+
+}
+
+#exit {
+    margin-left: 390px;
+}
+
+.section {
+    background-color: rgba(128, 128, 128, 0.342);
+    height: 100vh;
+    width: 100%;
+
+}
+
+.section-buttons {
+    background-color: #179c53;
+    width: 13%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 15px;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.sectiontwo {
+    position: absolute;
+    top: 235%;
+    background-color: rgba(128, 128, 128, 0.178);
+    margin-left: -35px;
+    padding-left: 40px;
+    height: fit-content;
+    width: 1630px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#buttontwo {
+    background-color: #c0212c;
+    font-size: medium;
+
+}
+
+#buttontwo2 {
+    font-size: medium;
+    position: absolute;
+    left: 90%;
+    margin-left: 50px;
+}
