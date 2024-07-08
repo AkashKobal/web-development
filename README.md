@@ -1,10 +1,12 @@
 # Web Development Projects (Beginner to Advance)        
+## Check out the live demo: [Projects](https://akashkobal.github.io/web-projects-demo/)
+
 ## Calculator _(HTML and CSS)_ <br>         
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)             
           
 ## Random Password Generator _(HTML, CSS, and Js)_ <br>            
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)         
-  
+   
 ## BMI Calculator  _(HTML, CSS, and Js)_ <br>         
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png)        
       
@@ -83,5 +85,8 @@
 
 ## Diece challenge _(HTML, CSS, Js)_
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/26.%20Diece%20challenge/Screenshot%20(350).png)
+
+## Drum kit _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/27.%20Drum%20kit/Screenshot%20(351).png)
 
 
