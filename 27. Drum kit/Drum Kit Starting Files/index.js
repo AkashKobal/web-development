@@ -22,6 +22,8 @@ var drumButton = document.querySelectorAll(".drum");
 var q = document.getElementById("q");
 
 
+// for mouse click
+
 for (var i = 0; i < numbberOfDrums; i++) {
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
@@ -43,6 +45,7 @@ for (var i = 0; i < numbberOfDrums; i++) {
         var buttonInnerHTML = this.innerHTML;
 
         makeSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
     });
 
 }
@@ -56,6 +59,7 @@ document.addEventListener("keypress", function (event) {
     // console.log(event.key);
     // alert("Key was pressed");
     makeSound(event.key);
+    buttonAnimation(event.key);
 });
 
 function makeSound(key) {
@@ -167,5 +171,17 @@ function makeSound(key) {
 
         default: alert("wrong key pressed");
     }
+
+}
+
+
+// adding animation to the buttons
+function buttonAnimation(currentKey){
+   var activate =  document.querySelector("." + currentKey);
+   activate.classList.add("pressed");
+// button become normal after 100 milisecond
+   setTimeout(function(){
+       activate.classList.remove("pressed");
+   },100);
 
 }
