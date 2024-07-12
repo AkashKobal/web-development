@@ -11,7 +11,7 @@
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png)        
       
 ## Account Registration Form  _(HTML, CSS, and Js)_ <br>     
-![alt text](https://github.com/AkashKobal/web-development/blob/main/4.%20Account%20Registration%20Form/account%20registration%20form%20output.png)    
+![alt text](https://github.com/AkashKobal/web-development/blob/main/4.%20Account%20Registration%20Form/account%20registration%20form%20output.png)     
    
 ## QR Code Generator  _(HTML, CSS, and Js)_ <br>   
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/5.%20QR%20Code%20Generator/qr%20code%20generator.png) 
