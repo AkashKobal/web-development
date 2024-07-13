@@ -1,5 +1,5 @@
 # Web Development Projects (Beginner to Advance)        
-## Check out the live demo: [Projects](https://akashkobal.github.io/web-projects-demo/)
+## Check out the live demo: [Click here](https://akashkobal.github.io/web-projects-demo/)
 
 ## Calculator _(HTML and CSS)_ <br>         
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)              
