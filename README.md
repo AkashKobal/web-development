@@ -1,26 +1,28 @@
-# Web Development Projects (Beginner to Advance)     
-## Calculator _(HTML and CSS)_ <br>       
-![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)         
+# Web Development Projects (Beginner to Advance)        
+## Check out the live demo: [Click here](https://akashkobal.github.io/web-projects-demo/)
+  
+## Calculator _(HTML and CSS)_ <br>         
+![alt text](https://github.com/AkashKobal/web-development/blob/main/1.%20Calculator/calculator%20output.png)               
+           
+## Random Password Generator _(HTML, CSS, and Js)_ <br>              
+![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)          
+    
+## BMI Calculator  _(HTML, CSS, and Js)_ <br>          
+![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png)         
+      
+## Account Registration Form  _(HTML, CSS, and Js)_ <br>     
+![alt text](https://github.com/AkashKobal/web-development/blob/main/4.%20Account%20Registration%20Form/account%20registration%20form%20output.png)      
    
-## Random Password Generator _(HTML, CSS, and Js)_ <br>  
-![alt text](https://github.com/AkashKobal/web-development/blob/main/2.%20Random%20Password%20Generator/random%20password%20generator%20output.png)
- 
-## BMI Calculator  _(HTML, CSS, and Js)_ <br>         
-![alt text](https://github.com/AkashKobal/web-development/blob/main/3.%20Body%20Mass%20Index%20Calculator/bmi%20calculator%20output.png)    
-  
-## Account Registration Form  _(HTML, CSS, and Js)_ <br> 
-![alt text](https://github.com/AkashKobal/web-development/blob/main/4.%20Account%20Registration%20Form/account%20registration%20form%20output.png)    
-  
-## QR Code Generator  _(HTML, CSS, and Js)_ <br>
+## QR Code Generator  _(HTML, CSS, and Js)_ <br>   
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/5.%20QR%20Code%20Generator/qr%20code%20generator.png) 
  
-## Login page  _(HTML, CSS, and Js)_ <br> 
+## Login page  _(HTML, CSS, and Js)_ <br>  
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/6.%20Login%20Page/login%20page%20output.png)
 
 ## Quote Generator _(HTML, CSS, and Js)_ <br>
 **New Quote**
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/7.%20Quotes%20Generator/new%20quote%20output.png)
-**Share**
+**Share** 
 ![alt text](https://github.com/AkashKobal/web-development/blob/main/7.%20Quotes%20Generator/share%20output.png)
 
 ## Google Search Engine Clone _(HTML, CSS, and Js)_
@@ -62,3 +64,34 @@
 
 ## Image Search Engine  _(HTML, CSS, Js)_
 ![image](https://github.com/soumya-rayast/web-development/assets/113257526/802d495d-712d-4e11-8065-80642ed418fe)
+
+## Mini Calendar _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/19.%20Mini%20Calendar/Screenshot%20(337).png)
+
+## Text to voice converter _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/20.%20Text%20to%20Voice%20Converter/Screenshot%20(338).png)
+
+## Random Joke Generator _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/21.%20Random%20Jocke%20Generator/Screenshot%20(339).png)
+
+## Random User Avatar Generator _(HTML, CSS, JS)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/22.%20Random%20User%20Avatar%20Generator/Screenshot%20(340).png)
+
+## Countdown Timer _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/23.%20Countdown%20Timer/Screenshot%20(342).png)
+
+## Memes App _(HTML, CSS, Js)_
+![alt texxt](https://github.com/AkashKobal/web-development/blob/main/24.%20Memes%20App/Screenshot%20(343).png)
+
+## Logiworks Instack Clone _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/25.%20Logiworks%20Instack%20Clone/Screenshot%20(346).png)
+
+## Diece challenge _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/26.%20Diece%20challenge/Screenshot%20(350).png)
+
+## Drum kit _(HTML, CSS, Js)_
+![alt text](https://github.com/AkashKobal/web-development/blob/main/27.%20Drum%20kit/Screenshot%20(351).png)
+
+## Github Profile App _(HTML,CSS,Js)_
+![Image](https://github.com/AkashKobal/web-development/blob/main/29.%20Github%20Profile%20App/Screenshot%20(354).png)
+

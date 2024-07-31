@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="meme-container">
+            <div class="title">
+                <p>Title: </p>
+                <h1 class="meme-title">Loading title.....</h1>
+            </div>
+            <img class="meme-image" id="meme-image" src="" alt="Loading meme.....">
+            <div class="author">
+                <p>Author :</p>
+                <h3 class="meme-author">Loading author.....</h3>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script>
+    let memeTitle = document.querySelector('.meme-title');
+    let memeImage = document.getElementById('meme-image');
+    let memeAuthor = document.querySelector('.meme-author');
+    let url = "https://meme-api.com/gimme"
+
+    let getMeme = () => {
+        fetch(url).then(data => data.json()).then(data => console.log(data))
+
+        fetch(url).then(data => data.json()).then(data => {
+
+            memeTitle.textContent = data.title;
+            memeAuthor.textContent = data.author;
+            memeImage.src = data.url;
+        });
+    }
+    getMeme(url);
+
+
+
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        background: #0d5c4b;
+        border-radius: 10px 10px 0 0;
+        color: white;
+        font-size: 2rem;
+    }
+  
+
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: #0d5c4b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .meme-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0 0 10px white;
+        padding: 2rem;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .meme-title {
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 1rem;
+
+    }
+
+    .meme-image {
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .meme-author {
+        font-size: 1.5rem;
+        color: white;
+        margin-top: 1rem;
+    }
+</style>
+
+</html>
